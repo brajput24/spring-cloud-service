@@ -1,0 +1,9 @@
+#manifest.yml
+---
+applications:
+- name: hwz-configserver
+  memory: 1024M
+  instances: 1
+  path: ./build/libs/cloud-config-server-0.0.1-SNAPSHOT.jar
+  buildpack: https://github.com/cloudfoundry/java-buildpack.git
+
